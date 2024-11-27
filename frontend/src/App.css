@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* General Background and Text Styles */
+body {
+  background-color: #F1F9FF; /* Light blue background for the body */
+  color: #333333; /* Dark gray text for readability */
+  font-family: 'Roboto', sans-serif; /* Clean, modern font */
+}
+
+.container {
+  background-color: #FFFFFF; /* White background for content areas */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.button-primary {
+  background-color: #007BFF; /* Blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: #6F42C1; /* Soft purple for headings */
+}
+
+p {
+  color: #333333; /* Dark gray text for paragraphs */
+}
+
+/* Word Count and Success Messages */
+.word-count {
+  color: #28A745; /* Green for success, like word count updates */
+}
+
+.error-message {
+  color: #DC3545; /* Red for error messages */
+}
+
+.history-item {
+  background-color: #F8F9FA; /* Light gray for history items */
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.history-item:hover {
+  background-color: #E9ECEF; /* Slightly darker on hover */
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
